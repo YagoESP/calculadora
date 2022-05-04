@@ -1,0 +1,71 @@
+<doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="https://www.youtube.com/s/desktop/12d6b690/img/favicon.ico">
+
+		<title>Título</title>
+		<meta name="description" content="descripción de la web, se recomienda 90 caracteres">
+        <meta name="keywords" 	 content="palabras clave, separadas, por comas">
+
+        <link href="style/calc.css" rel="stylesheet"> 
+  
+    </head>
+    
+    <body>
+        <header>
+            
+        </header>
+
+        <main>
+            <div class="calculadora">
+                <div class="pantalla" id="pantalla"></div>
+                <div class="botones">
+                  <div class="operadores">
+                    <div>+</div>
+                    <div>-</div>
+                    <div>&times;</div>
+                    <div>&divide;</div>
+                  </div>
+                  <div class="panelIzquierdo">
+                    <div class="numeros">
+                      <div>7</div>
+                      <div>8</div>
+                      <div>9</div>
+                    </div>
+                    <div class="numeros">
+                      <div>4</div>
+                      <div>5</div>
+                      <div>6</div>
+                    </div>
+                    <div class="numeros">
+                      <div>1</div>
+                      <div>2</div>
+                      <div>3</div>
+                    </div>
+                    <div class="numeros">
+                      <div>0</div>
+                      <div>.</div>
+                      <div id="limpiar">C</div>
+                    </div>
+                  </div>
+                  <div class="igual" id="resultado">=</div>
+                </div>
+              </div>
+        </main>
+
+        <script type="module" src="js/calc.js"></script>
+  
+
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: ['Ubuntu:700,700i', 'Ubuntu+Condensed:400']
+                }
+            });        
+        </script>
+
+    </body>
+</html>
